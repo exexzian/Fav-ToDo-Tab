@@ -18,5 +18,5 @@ A simple intuitive but efficient **ToDo** App developed using jQuery and jQuery-
 - Other than clicking on Add Task button, tasks can be added by hitting enter key
 
 ---
-You can check [Demo Fiddle here](http://jsfiddle.net/exex/HPwcz/).
+You can check [Demo Fiddle here](http://jsfiddle.net/exex/j2HDY/).
 
