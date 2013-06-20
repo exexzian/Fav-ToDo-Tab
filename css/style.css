@@ -1,0 +1,89 @@
+h2 {
+    font-family:arial;
+}
+form {
+    display: inline-block;
+}
+.enabled {
+    display: inline-block;
+    height:20px;
+    width:90px;
+    background-color:green;
+    font-family:arial;
+    font-weight:bold;
+    color:#ffffff;
+    border-radius: 5px;
+    text-align:center;
+    margin-top:2px;
+    cursor: pointer;
+}
+#list {
+    font-family:garamond;
+    color:yellow;
+}
+img {
+    margin-left:10px;
+}
+.item {
+    display:inline;
+    margin-top:2px;
+    margin-left:2px;
+    margin-right:10px;
+    margin-bottom:2px;
+    background-color: black;
+    color:white;
+    border-radius: 5px;
+}
+#tabs {
+    outline-color: transparent;
+}
+#tabs .ui-tabs-nav li {
+    margin-top: 0.6em;
+    font-size: 80%;
+    background:#006600;
+    color: yellow;
+}
+#tabs .ui-tabs-nav li.ui-tabs-selected, #tabs .ui-tabs-nav li.ui-state-active {
+    margin-top: 0em;
+    font-size: 100%;
+    background:#00FF00;
+    color:red;
+}
+#tabs .ui-tabs-panel {
+    background: #f5f3e5 url(http://code.jquery.com/ui/1.8.23/themes/south-street/images/ui-bg_highlight-hard_100_f5f3e5_1x100.png) repeat-x scroll 50% top;
+    border-width: 0px 1px 1px 1px;
+}
+#chk {
+    color: blue;
+}
+#listItems {
+    list-style-type:none;
+    padding:0px;
+    margin:0px;
+}
+#listItems2 {
+    list-style-type:none;
+}
+a {
+    color: yellow;
+}
+
+ .disabled {
+    background:#C1BFBF;
+    display: inline-block;
+    height:20px;
+    width:90px;
+    font-family:arial;
+    font-weight:bold;
+    color:#ffffff;
+    border-radius: 5px;
+    text-align:center;
+    margin-top:2px;
+    cursor: pointer;
+}
+#tabs li a {
+    color: black;
+}
+#tabs li a:hover {
+    color: white;
+}
