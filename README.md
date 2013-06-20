@@ -1,8 +1,9 @@
 ## FavToDoTab
 ==========
 
-A simple but efficient **ToDo** App developed using jQuery and jQuery-ui.
+A simple intuitive but efficient **ToDo** App developed using jQuery and jQuery-ui.
 ---
+
 **Features :** (_More features to be added on Future Updates_)
 - Tabbed Panes | Task-Tab and Favorites-Tab
         - Tasks can be easily stored on Favorites Tab by clicking on the 			  			star icon (icon gets changed to filled star - so as to show distinguish    		     that it's listed on favorites tab).
