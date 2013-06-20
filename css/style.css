@@ -36,6 +36,7 @@ img {
 }
 #tabs {
     outline-color: transparent;
+    width: 700px;
 }
 #tabs .ui-tabs-nav li {
     margin-top: 0.6em;
