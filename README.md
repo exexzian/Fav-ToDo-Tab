@@ -8,8 +8,9 @@ A simple but efficient **ToDo** App developed using jQuery and jQuery-ui.
         - Tasks can be easily stored on Favorites Tab by clicking on the 			  			star icon (icon gets changed to filled star - so as to show distinguish    		     that it's listed on favorites tab).
         - Stored Favorites Tasks can be listed back to Tasks Tab by clicking on the 		  home icon.
 
-- Duplicacy check
-        - checks for duplicate tasks on Task tab as well as on Favorites tab
+- Duplicacy Check
+        - Checks for duplicate tasks on Task Tab as well as on Favorites Tab
+        
 ---
 **UI-UX Features :**
 - Add Button gets enabled only when there is some text in the textbox (_also detect     blank spaces_)
