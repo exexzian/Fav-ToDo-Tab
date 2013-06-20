@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css" />
+		
+
+		<link href="css/jquery-ui.css" rel="stylesheet" type="text/css" />
+		<script src="Lib/jquery.min.js"></script>
+		<script src="Lib/jquery-ui.min.js"></script>
+		<script src="js/todo.js"></script>
+		<link href="css/style.css" rel="stylesheet" type="text/css" />
+
+		<meta charset=utf-8 />
+		<title>ToDo Task</title>
+	</head>
+	<body>
+		<div id="tabs">
+			<ul id="tab">
+				<li>
+					<a href="#tabs-1">Tasks</a>
+
+				</li>
+				<li>
+					<a href="#tabs-2">Favorites</a>
+
+				</li>
+			</ul>
+			<div id="tabs-1">
+				<h2>List Your To-Do task and Click them when its Done</h2>
+
+				<form name="checkListForm">
+					<input id="txt" type="text" name="checkListItem" />
+				</form>
+				<div id="button" class="disabled">
+					Add Task!
+				</div>
+				<br/>
+				<div id="list" style="color:blue">
+					<ul id="listItems"></ul>
+				</div>
+			</div>
+			<div id="tabs-2">
+				<p>
+					will be added later on
+				</p>
+				<div id="list2" style="color:blue">
+					<ul id="listItems2"></ul>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
