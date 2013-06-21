@@ -88,3 +88,7 @@ a {
 #tabs li a:hover {
     color: white;
 }
+
+.edit{
+    background-color:#FFFF99;
+}
