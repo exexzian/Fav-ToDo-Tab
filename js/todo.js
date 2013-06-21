@@ -54,9 +54,9 @@ $(document).ready(function () {
         var $list = $('#listItems2');
         var $taskText = $(this).parent().text();
         if ((checkDuplicates($taskText, $list) == true) || ($('#listItems2').children().length == 0)) {
-            $('#listItems2').append('<li class="curItem"><input type="checkbox" class = "item1" value= ""/>' + $(this).parent().text() + '<img src = "http://s10.postimg.org/s00agp76t/home.png" width="20" height="20" style="display: inline-block"/></li>');
+            $('#listItems2').append('<li class="curItem"><input type="checkbox" class = "item1" value= ""/>' + $(this).parent().text() + '<img src = "images/home.png" width="20" height="20" style="display: inline-block"/></li>');
 
-            $img.attr('src', 'http://cdn1.iconfinder.com/data/icons/pretty_office_3/256/Star-Full.png');
+            $img.attr('src', 'images/star-full.png');
 
         } else {
             alert("this tast already exist in your ToDo list ");
@@ -76,14 +76,28 @@ $(document).ready(function () {
         var $taskText = $(this).parent().text();
         if ((checkDuplicates($taskText, $list) == true) || ($('#listItems').children().length == 0)) {
 
-            $('#listItems').append('<li class="curItem"><input type="checkbox" class = "item1" value= ""/>' + $(this).parent().text() + '<img src="http://images.all-free-download.com/images/graphiclarge/favorite_93483.jpg" height="20" width="20" style="display: inline-block"/></li>');
+            $('#listItems').append('<li class="curItem"><input type="checkbox" class = "item1" value= ""/>' + $(this).parent().text() + '<img src="images/star-blank.png" height="20" width="20" style="display: inline-block"/></li>');
         } else {
             alert("duplicate");
         }
     });
 
+    /** edit list on double click *****/
+
+    $('#listItems').on('dblclick', 'span', function () {
+
+        $(this).hide().siblings(".edit").show().val($(this).text()).focus();
+    });
+
+    $("#listItems").on('focusout', '.edit', function () {
+        $(this).hide().siblings(".display").show().text($(this).val());
+    });
+
+    /******************/
+
 });
 $('#listItem').remove();
+
 
 function enableClick() {
     var $taskText = $('#txt').val();
@@ -106,17 +120,7 @@ function enableClick() {
 
 }
 
-/** edit list on double click *****/
-$('#listItems').on('dblclick','span',function () {
-   
-    $(this).hide().siblings(".edit").show().val($(this).text()).focus();
-});
 
-$("#listItems").on('focusout','.edit',function () {
-    $(this).hide().siblings(".display").show().text($(this).val());
-});
-
-/******************/
 
 function checkDuplicates($taskText, $list) {
     var $flag = false;
