@@ -1,6 +1,3 @@
-h2 {
-    font-family:arial;
-}
 form {
     display: inline-block;
 }
@@ -36,7 +33,7 @@ img {
 }
 #tabs {
     outline-color: transparent;
-    width: 700px;
+    width: 400px;
 }
 #tabs .ui-tabs-nav li {
     margin-top: 0.6em;
@@ -68,7 +65,12 @@ img {
 a {
     color: yellow;
 }
-
+/*.ui-icon .ui-icon-star {
+    display:inline-block;
+    height:15px;
+    width:15px;
+    background:yellow;
+}*/
  .disabled {
     background:#C1BFBF;
     display: inline-block;
