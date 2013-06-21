@@ -15,13 +15,14 @@ A simple intuitive but efficient **ToDo** App developed using jQuery and jQuery-
 - Duplicacy Check<br>
         - Checks for duplicate tasks on Task Tab as well as on Favorites Tab
 
-- Editable List<br>
+- Editable Tasks<br>
         - Double Click on the task to make edit
+        
 ---
 **UI-UX Features :**
 - Add Button gets enabled only when there is some text in the textbox (_also detect     blank spaces_)
 - Other than clicking on Add Task button, tasks can be added by hitting enter key
 
 ---
-You can check [Demo Fiddle here](http://jsfiddle.net/exex/wRasf/).
+You can check [Demo Fiddle here](http://jsfiddle.net/exex/Dx7gF/).
 
