@@ -120,14 +120,12 @@ function enableClick() {
 }
 
 function checkDuplicates($taskText, $list) {
-	var $flag = false;
+	var $flag = true;
 	$($list).find('li>span').each(function() {
 		if ($taskText === $(this).text()) {
 			$flag = false;
 			return $flag;
-		} else {
-			$flag = true;
-		}
+		} 
 
 	});
 	return $flag;
