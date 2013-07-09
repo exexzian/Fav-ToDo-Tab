@@ -1,0 +1,19 @@
+{
+  "name": "Task ToDo",
+  "description": "List and Manage ToDo Tasks with features like saving favorite tasks to favorites tab,  duplicate task check, editable tasks etc. ",
+  "launch_path": "FavToDo.html",
+  "icons": {
+    "16": "images/todo icon 16.png",
+    "128": "images/todo icon 128.png"
+  
+  },
+  "developer": {
+    "name": "exex zian",
+    "url": "http://exexzian.github.io/Fav-ToDo-Tab/"
+  },
+  "default_locale": "en",
+  
+  "installs_allowed_from": [
+  "https://marketplace.firefox.com"
+	]
+}
