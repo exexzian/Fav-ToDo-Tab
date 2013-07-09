@@ -13,8 +13,6 @@
   },
   "default_locale": "en",
   
-  "Content-Type": "application/x-web-app-manifest+json",
-  
   "installs_allowed_from": [
   "https://marketplace.firefox.com"
 	]
