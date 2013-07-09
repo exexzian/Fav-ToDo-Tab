@@ -59,7 +59,7 @@ $(document).ready(function() {
 			$img.attr('src', 'images/star-full.png')
 
 		} else {
-			alert("this tast already exist in your ToDo list ");
+			alert("this task already exist in your ToDo list ");
 		}
 	});
 
