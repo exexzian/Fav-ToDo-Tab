@@ -1,3 +1,5 @@
+Content-Type: application/x-web-app-manifest+json
+
 {
   "name": "Task ToDo",
   "description": "List and Manage ToDo Tasks with features like saving favorite tasks to favorites tab,  duplicate task check, editable tasks etc. ",
