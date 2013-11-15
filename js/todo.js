@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $("#tabs").tabs();
+	$("#tabs").tabs();
 
 	$('#button').removeAttr('onclick');
 
@@ -7,7 +7,8 @@ $(document).ready(function() {
 	var $getFav = localStorage.getItem('favKey');
 	$("#listItems").append($getList);
 	$("#listItems2").append($getFav);
-
+   
+ 
 	$('#txt').on('focus keyup', function() {
 		var $taskText = $(this).val();
 
@@ -37,7 +38,11 @@ $(document).ready(function() {
 			$(this).remove();
 		}
 	});
-
+	
+	$('#quit').click(function(){	
+		window.close();
+	});
+	
 	//store task/fav list before closing
 	$(window).on('beforeunload', function() {
 		var $listAfter = $("#listItems").html();
@@ -84,7 +89,7 @@ $(document).ready(function() {
 
 	/** edit list on double click *****/
 
-	$('#listItems').on('click', 'span', function() {
+	$('#listItems').on('dblclick', 'span', function() {
 		
 		$(this).hide().siblings(".edit").show().val($(this).text()).focus();
 	});
