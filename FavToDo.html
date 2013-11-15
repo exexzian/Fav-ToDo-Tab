@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	
-
 		<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/smoothness/jquery-ui.css" rel="stylesheet" type="text/css" />
 		
 
@@ -13,28 +11,10 @@
 		<link href="css/style.css" rel="stylesheet" type="text/css" />
 
 		<meta charset=utf-8 />
-		<title>Favorite ToDo Tab</title>
-
-<script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-    ga('create', 'UA-41879582-1', 'github.com');
-    ga('send', 'pageview');
-</script>
-
+		<title>ToDo Task</title>
 	</head>
 	<body>
-		<div id="tabs">
+		<div id="tabs" >
 			<ul id="tab">
 				<li>
 					<a href="#tabs-1">Tasks</a>
@@ -46,14 +26,15 @@
 				</li>
 			</ul>
 			<div id="tabs-1">
-				<p>List Your To-Do task and Click them when its Done</p>
+				<h2>Tasks ToDo:</h2>
 
-				<form name="checkListForm">
+				<div id="checkListForm">
 					<input id="txt" type="text" name="checkListItem" />
-				</form>
-				<div id="button" class="disabled">
+					<div id="button" class="disabled">
 					Add Task!
 				</div>
+				</div>
+				
 				<br/>
 				<div id="list" style="color:blue">
 					<ul id="listItems"></ul>
@@ -61,12 +42,15 @@
 			</div>
 			<div id="tabs-2">
 				<p>
-				    Favorite Tasks:
+					Favorite Tasks:
 				</p>
 				<div id="list2" style="color:blue">
 					<ul id="listItems2"></ul>
 				</div>
 			</div>
 		</div>
+		
+		<hr>
+		<button id="quit">Quit</button>
 	</body>
 </html>
