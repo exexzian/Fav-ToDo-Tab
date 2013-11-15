@@ -1,3 +1,6 @@
+h2 {
+    font-family:arial;
+}
 form {
     display: inline-block;
 }
@@ -13,6 +16,7 @@ form {
     text-align:center;
     margin-top:2px;
     cursor: pointer;
+   
 }
 #list {
     font-family:garamond;
@@ -32,8 +36,8 @@ img {
     border-radius: 5px;
 }
 #tabs {
-    outline-color: transparent;
-    width: 400px;
+    outline-color: none;
+    width: 98%;
 }
 #tabs .ui-tabs-nav li {
     margin-top: 0.6em;
@@ -44,7 +48,7 @@ img {
 #tabs .ui-tabs-nav li.ui-tabs-selected, #tabs .ui-tabs-nav li.ui-state-active {
     margin-top: 0em;
     font-size: 100%;
-    background:#00FF00;
+    background: #000000;
     color:red;
 }
 #tabs .ui-tabs-panel {
@@ -65,12 +69,7 @@ img {
 a {
     color: yellow;
 }
-/*.ui-icon .ui-icon-star {
-    display:inline-block;
-    height:15px;
-    width:15px;
-    background:yellow;
-}*/
+
  .disabled {
     background:#C1BFBF;
     display: inline-block;
@@ -85,12 +84,18 @@ a {
     cursor: pointer;
 }
 #tabs li a {
-    color: black;
-}
-#tabs li a:hover {
     color: white;
 }
-
 .edit{
-    background-color:#FFFF99;
+	background-color: #FFFF99;
+}
+
+
+#quit{
+	font-size: large;
+	border-radius: 5px;
+	padding: 3px;
+	background-color: #f46760;
+	position: absolute;
+	left: 40%;
 }
