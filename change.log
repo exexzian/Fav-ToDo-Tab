@@ -1,5 +1,6 @@
 version 0.1.1
  - Edit Task Feature added - (corrected on those tasks which are imported from favorites tab)
+ - Added Quit functionality
  
  version 0.1.0
  - ToDo task app with Duplicates and loca-storage 
